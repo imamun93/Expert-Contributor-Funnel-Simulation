@@ -33,4 +33,15 @@ Using a realistic, end-to-end funnel simulation with **Python, SQL-style logic, 
 | Activated           | Assigned to real-world client task (e.g., OpenAI)             |
 
 ---
-
+## 🔍 Key Columns Explained
+| Column                    | Description                                                     |
+| ------------------------- | --------------------------------------------------------------- |
+| `candidate_id`            | Unique identifier                                               |
+| `source`                  | Where they came from (LinkedIn, Job Board, etc.)                |
+| `domain`                  | Subject matter area (e.g., Biotech, Finance)                    |
+| `qualified`               | Whether they passed initial filters                             |
+| `training_started_date`   | When they began training (if at all)                            |
+| `training_completed_date` | If they finished training                                       |
+| `evaluation_score`        | Their simulated test task result (0–100)                        |
+| `activated`               | Whether they were placed on a real client project               |
+| `time_to_activate_days`   | Time from eval pass to activation (how fast they were deployed) |
