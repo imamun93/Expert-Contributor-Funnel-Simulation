@@ -45,3 +45,11 @@ Using a realistic, end-to-end funnel simulation with **Python, SQL-style logic, 
 | `evaluation_score`        | Their simulated test task result (0–100)                        |
 | `activated`               | Whether they were placed on a real client project               |
 | `time_to_activate_days`   | Time from eval pass to activation (how fast they were deployed) |
+
+## 🔍 Sample Insights (from mock data)
+
+- ~41% of signups reach activation
+- Largest drop-off occurs at the evaluation stage (~25% fail rate)
+- Biotech contributors had the highest average evaluation scores
+- Average time-to-activation for successful candidates was ~4 days
+- Training completion rate = 86%
